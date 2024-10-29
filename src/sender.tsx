@@ -18,7 +18,7 @@ async function Post() {
     console.log('POST call succeeded');
     console.log(response);
   } catch (e: any) {
-    console.log('POST call failed: ', JSON.parse(e.response.body));
+    console.log('POST call failed: ', e);
   }
 }
 
