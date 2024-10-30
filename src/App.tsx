@@ -1,8 +1,8 @@
-import { generateClient } from "aws-amplify/api";
-import Post from "./sender";
+// import { generateClient } from "aws-amplify/api";
+// import Post from "./sender";
 
 
-const client = generateClient();
+// const client = generateClient();
 
 function App() {
 
@@ -33,14 +33,8 @@ function App() {
 
   return (
     <main>
-      <div>
-        🥳 App successfully hosted. Try creating a new todo.
-        <br />
-        <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
-          Review next step of this tutorial.
-        </a>
-      </div>
-      <button onClick={()=>Post()}>send</button>
+
+      {/* <button onClick={()=>Post()}>send</button> */}
       <button type="button" onClick={()=>callAPI("1", "stringingingignignign")}>Submit</button>
 
     </main>
